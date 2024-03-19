@@ -1,210 +1,280 @@
-@charset "UTF-8";
-
-/* typeface */
-.body-regular {
-  font-family: "Space Grotesk", sans-serif;
-  font-optical-sizing: auto;
-  font-size: 16px;
-  font-weight: 400;
-  font-style: normal;
-  line-height: 150%;
-}
-.body-bold {
-  font-family: "Space Grotesk", sans-serif;
-  font-optical-sizing: auto;
-  font-size: 16px;
-  font-weight: 600;
-  font-style: normal;
-  line-height: 150%;
-}
-.body-underlined {
-  font-family: "Space Grotesk", sans-serif;
-  font-optical-sizing: auto;
-  font-size: 16px;
-  font-weight: 400;
-  font-style: normal;
-  text-decoration: underline;
-  line-height: 150%;
-}
-.body-lead {
-  font-family: "Space Grotesk", sans-serif;
-  font-optical-sizing: auto;
-  font-size: 20px;
-  font-weight: 300;
-  font-style: normal;
-  line-height: 150%;
-}
-.body-small {
-  font-family: "Space Grotesk", sans-serif;
-  font-optical-sizing: auto;
-  font-size: 13px;
-  font-weight: 400;
-  font-style: normal;
-  line-height: 150%;
-}
-.h1 {
-  font-family: "Space Grotesk", sans-serif;
-  font-optical-sizing: auto;
-  font-size: 61px;
-  font-weight: 700;
-  font-style: normal;
-  line-height: 120%;
-}
-.h2 {
-  font-family: "Space Grotesk", sans-serif;
-  font-optical-sizing: auto;
-  font-size: 49px;
-  font-weight: 700;
-  font-style: normal;
-  line-height: 120%;
-}
-.h3 {
-  font-family: "Space Grotesk", sans-serif;
-  font-optical-sizing: auto;
-  font-size: 39px;
-  font-weight: 700;
-  font-style: normal;
-  line-height: 120%;
-}
-.h4 {
-  font-family: "Space Grotesk", sans-serif;
-  font-optical-sizing: auto;
-  font-size: 31px;
-  font-weight: 700;
-  font-style: normal;
-  line-height: 120%;
-}
-.h5 {
-  font-family: "Space Grotesk", sans-serif;
-  font-optical-sizing: auto;
-  font-size: 25px;
-  font-weight: 700;
-  font-style: normal;
-  line-height: 120%;
-}
-.font-monospace {
-  font-size: 12px;
-  line-height: 150%;
+.titleInfo{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: left;
 }
 
-/* color */
-.color-primary {
-  color: #096dd9;
-}
-.color-primary-dark {
-  color: #0050b3;
-}
-.color-white {
-  color: #ffffff;
-}
-.color-black {
-  color: #000000;
-}
-.color-gray-light {
-  color: #fafafa;
-}
-.color-gray-dark {
-  color: #434343;
-}
-.color-body {
-  background-color: #fafafa;
+h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 61.04px;
+    font-weight: 700px;
+    font-style: Normal;
+  
 }
 
-/* color cards */
-.card-color-primary {
-  background-color: #096dd9;
-}
-.card-color-primary-dark {
-  background-color: #0050b3;
-}
-.card-color-white {
-  background-color: #ffffff;
-}
-.card-color-gray-light {
-  background-color: #fafafa;
-}
-.card-color-gray-dark {
-  background-color: #434343;
-}
-.card-color-black {
-  background-color: #000000;
+.background-white{
+    Font-Family: 'Ubuntu', sans-serif;
+    Font-size: 48.83px;
+    Font-weight: 700px;
+    Font-style: Normal;
+    color:#FFFFFF;
 }
 
-/* button */
-.btn-style-filled {
-  color: #ffffff;
-  background-color: #096dd9;
-  border: 0;
-  font-weight: 400;
-  border-radius: 8px;
-  font-size: 16px;
-  padding: 8px 16px;
-}
-.btn-style-filled:hover {
-  background-color: #0050b3;
-}
-.btn-style-outlined {
-  color: #096dd9;
-  background-color: #ffffff;
-  border: 2px solid #096dd9;
-  font-weight: 400;
-  border-radius: 8px;
-  font-size: 16px;
-  padding: 8px 16px;
-}
-.btn-style-outlined:hover {
-  color: #ffffff;
-  background-color: #096dd9;
+.background-white-h3{
+    Font-Family: 'Ubuntu', sans-serif;
+    Font-size: 39.06px;
+    Font-weight: 700px;
+    Font-style: Normal;
+    color:#FFFFFF;
 }
 
-/* card */
-.myCard {
-  border-radius: 16px;
-}
-.myCard:hover {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.08) !important;
-  /* background-color: blue !important; */
-}
-.myCard-img-top {
-  border-radius: 8px;
-}
-/* default card */
-.card-style-default {
-  border-radius: 16px;
-}
-.card-style-default:hover {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.08) !important;
-  transform: scale(1.05);
-  transition: transform 0.2s ease;
-}
-.card-style-default-img-top {
-  border-radius: 8px;
-}
-/* customized card */
-.card-style-customized {
-  border-radius: 16px;
-  background: transparent !important;
-}
-.card-style-customized:hover {
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.04) !important;
-}
-.card-style-customized-img-top {
-  border-radius: 8px;
+
+
+h2{
+    Font-Family: 'Ubuntu', sans-serif;
+    Font-size: 48.83px;
+    Font-weight: 700px;
+    Font-style: Normal;
+    
+  
 }
 
-/* navbar */
-.navbar-brand {
-  padding: 8px;
-}
-.nav-link-selected {
-  font-weight: 600;
+h3{
+    Font-Family: 'Ubuntu', sans-serif;
+    Font-size: 39.06px;
+    Font-weight: 700px;
+    Font-style: Normal;
+    
 }
 
-/* sidebar */
-.nav-title {
-  font-size: 16px;
-  font-weight: 500;
-  font-style: normal;
-  line-height: 150%;
-  letter-spacing: 1px !important;
+
+h4{
+    Font-Family: 'Ubuntu', sans-serif;
+    Font-size: 31.25px;
+    Font-weight: 700px;
+    Font-style: Normal;
+}
+
+.background-white-h4{
+    Font-Family: 'Ubuntu', sans-serif;
+    Font-size: 31.25px;
+    Font-weight: 700px;
+    Font-style: Normal;
+    color:#FFFFFF;
+}
+
+
+
+.NunitoSansBody {
+    Font-Family: 'Nunito Sans', sans-serif;
+    Font-size: 16px;
+    Font-weight:400px;
+    font-size: Normal;
+    
+}
+
+.NunitoSansBodyExtraLargeBold{
+    Font-Family: 'Nunito Sans', sans-serif;
+    Font-size: 24px;
+    Font-weight:700px;
+    font-size: Normal;
+}
+
+.NunitoSansBodyExtraLarge{
+    Font-Family: 'Nunito Sans', sans-serif;
+    Font-size: 24px;
+    Font-weight:400px;
+    font-size: Normal; 
+}
+
+.NunitoSansBodyLarge{
+    Font-Family: 'Nunito Sans', sans-serif;
+    Font-size: 18px;
+    Font-weight:400px;
+    font-size: Normal;  
+}
+
+.NunitoSansBodyLarge-bg-white{
+    Font-Family: 'Nunito Sans', sans-serif;
+    Font-size: 18px;
+    Font-weight:400px;
+    font-size: Normal;  
+    color:#FFFFFF;
+}
+
+.UbuntuParagraph{
+    Font-Family: 'Ubuntu', serif;
+    Font-size: 16px;
+    Font-weight:Normal;
+    font-size: Normal;
+    
+}
+
+
+
+.NunitoSansEmphasis{
+    Font-Family: 'Nunito Sans', sans-serif;
+    Font-size: 16px / 1rem;
+    Font-weight: 400px;
+    Font-style: Italic;
+
+}
+
+
+.NunitoSansLink{
+    Font-Family: 'Nunito Sans', sans-serif;
+    Font-size: 16px / 1rem;
+    Font-weight: 400px;
+    Font-style: Normal;
+    text-decoration: underline;
+    color: rgb(0, 71, 171);
+
+}
+
+
+.NunitoSansLink:hover{
+    color: #4B59A7;
+}
+
+
+.type1{
+    text-align:justify;
+    padding-top: 75px;
+    color: #4B59A7;
+} 
+
+
+.type2{
+    text-align:justify;
+    padding-top: 90px;
+    color: #4B59A7;
+
+}
+
+
+.type3{
+    text-align:justify;
+    padding-top: 90px;
+    color: #4B59A7;
+
+}
+
+
+.navbar-linkj{
+    Font-Family: 'Nunito Sans', sans-serif !important;
+}
+
+.nav-link-projects{
+    font-weight: 900px !important;
+    color: #4B59A7;
+}
+
+.footer-ab{
+    background-color:#EFECE4 !important; 
+}
+
+.copyrightText{
+    font-family:'Nunito Sans', sans-serif; 
+}
+
+
+.btn-light{
+    background-color: #F9E7AE;
+    border-color: #F9E7AE;
+}
+
+.card-body{
+    background-color: black !important;
+} 
+
+.card-desktop{
+    background-color: black !important;
+}
+
+.card-info{
+    background-color: black !important;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px
+}
+
+.card-grey{
+    background-color: #D9D9D9 !important;
+    border-bottom-left-radius: 5px;
+}
+
+.card-grey-mobile{
+    background-color: #D9D9D9 !important;
+}
+
+.card-text{
+    color:#FFFFFF;
+    Font-Family: 'Nunito Sans', sans-serif;
+    Font-size: 16px;
+}
+
+.card-base-desktop{
+    margin-bottom: 3px;
+    position:absolute;
+    bottom: 0px;
+}
+
+.card-title{
+    color:#FFFFFF;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 31px;
+}
+
+.card-title-logo, .card-title-color{
+    color:#FFFFFF;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 28px;
+}
+
+.card-base{
+    Font-Family: 'Nunito Sans', sans-serif;  
+}
+
+.card-bottom{
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.NavBarIntro{
+    background-color:#F9E7AE !important;
+}
+
+.title-row{
+    background-color: #4B59A7;
+    height: 150px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+
+.btn-light:hover{
+    background-color:#A3A7B5;
+    border-color:#A3A7B5;
+}
+
+
+/* html body{
+    background-color: #F2EBDA;
+} */
+
+
+.PatternsImage{
+    border: 1px solid #000;
+    padding: 0;
+}
+
+.componentIndent{
+    margin-left: 50px;
+}
+
+.row-title-banner{
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
 }
