@@ -1,10 +1,10 @@
 .titleInfo{
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Philosopher', sans-serif;
     text-align: left;
 }
 
 h1{
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Philosopher', sans-serif;
     font-size: 61.04px;
     font-weight: 700px;
     font-style: Normal;
@@ -12,7 +12,7 @@ h1{
 }
 
 .background-white{
-    Font-Family: 'Ubuntu', sans-serif;
+    Font-Family: 'Philosopher', sans-serif;
     Font-size: 48.83px;
     Font-weight: 700px;
     Font-style: Normal;
@@ -20,7 +20,7 @@ h1{
 }
 
 .background-white-h3{
-    Font-Family: 'Ubuntu', sans-serif;
+    Font-Family: 'Philosopher', sans-serif;
     Font-size: 39.06px;
     Font-weight: 700px;
     Font-style: Normal;
@@ -30,7 +30,7 @@ h1{
 
 
 h2{
-    Font-Family: 'Ubuntu', sans-serif;
+    Font-Family: 'Philosopher', sans-serif;
     Font-size: 48.83px;
     Font-weight: 700px;
     Font-style: Normal;
@@ -39,7 +39,7 @@ h2{
 }
 
 h3{
-    Font-Family: 'Ubuntu', sans-serif;
+    Font-Family: 'Philosopher', sans-serif;
     Font-size: 39.06px;
     Font-weight: 700px;
     Font-style: Normal;
@@ -48,14 +48,14 @@ h3{
 
 
 h4{
-    Font-Family: 'Ubuntu', sans-serif;
+    Font-Family: 'Philosopher', sans-serif;
     Font-size: 31.25px;
     Font-weight: 700px;
     Font-style: Normal;
 }
 
 .background-white-h4{
-    Font-Family: 'Ubuntu', sans-serif;
+    Font-Family: 'Philosopher', sans-serif;
     Font-size: 31.25px;
     Font-weight: 700px;
     Font-style: Normal;
@@ -64,45 +64,45 @@ h4{
 
 
 
-.NunitoSansBody {
-    Font-Family: 'Nunito Sans', sans-serif;
+.Philosopher {
+    Font-Family: 'Philosopher', sans-serif;
     Font-size: 16px;
     Font-weight:400px;
     font-size: Normal;
     
 }
 
-.NunitoSansBodyExtraLargeBold{
-    Font-Family: 'Nunito Sans', sans-serif;
+.PhilosopherBodyExtraLargeBold{
+    Font-Family: 'Philosopher', sans-serif;
     Font-size: 24px;
     Font-weight:700px;
     font-size: Normal;
 }
 
-.NunitoSansBodyExtraLarge{
-    Font-Family: 'Nunito Sans', sans-serif;
+.PhilosopherBodyExtraLarge{
+    Font-Family: 'Philosopher', sans-serif;
     Font-size: 24px;
     Font-weight:400px;
     font-size: Normal; 
 }
 
-.NunitoSansBodyLarge{
-    Font-Family: 'Nunito Sans', sans-serif;
+.PhilosopherBodyLarge{
+    Font-Family: 'Philosopher', sans-serif;
     Font-size: 18px;
     Font-weight:400px;
     font-size: Normal;  
 }
 
-.NunitoSansBodyLarge-bg-white{
-    Font-Family: 'Nunito Sans', sans-serif;
+.PhilosopherBodyLarge-bg-white{
+    Font-Family: 'Philosopher', sans-serif;
     Font-size: 18px;
     Font-weight:400px;
     font-size: Normal;  
     color:#FFFFFF;
 }
 
-.UbuntuParagraph{
-    Font-Family: 'Ubuntu', serif;
+.PhilosopherParagraph{
+    Font-Family: 'Philosopher', serif;
     Font-size: 16px;
     Font-weight:Normal;
     font-size: Normal;
@@ -111,8 +111,8 @@ h4{
 
 
 
-.NunitoSansEmphasis{
-    Font-Family: 'Nunito Sans', sans-serif;
+.PhilosopherEmphasis{
+    Font-Family: 'Philosopher', sans-serif;
     Font-size: 16px / 1rem;
     Font-weight: 400px;
     Font-style: Italic;
@@ -120,8 +120,8 @@ h4{
 }
 
 
-.NunitoSansLink{
-    Font-Family: 'Nunito Sans', sans-serif;
+.PhilosopherLink{
+    Font-Family: 'Philosopher', sans-serif;
     Font-size: 16px / 1rem;
     Font-weight: 400px;
     Font-style: Normal;
@@ -131,7 +131,7 @@ h4{
 }
 
 
-.NunitoSansLink:hover{
+.PhilosopherLink:hover{
     color: #4B59A7;
 }
 
@@ -160,7 +160,7 @@ h4{
 
 
 .navbar-linkj{
-    Font-Family: 'Nunito Sans', sans-serif !important;
+    Font-Family: 'Philosopher', sans-serif !important;
 }
 
 .nav-link-projects{
@@ -173,7 +173,7 @@ h4{
 }
 
 .copyrightText{
-    font-family:'Nunito Sans', sans-serif; 
+    font-family:'Philosopher', sans-serif; 
 }
 
 
@@ -207,7 +207,7 @@ h4{
 
 .card-text{
     color:#FFFFFF;
-    Font-Family: 'Nunito Sans', sans-serif;
+    Font-Family: 'Philosopher', sans-serif;
     Font-size: 16px;
 }
 
@@ -219,18 +219,18 @@ h4{
 
 .card-title{
     color:#FFFFFF;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Philosopher', sans-serif;
     font-size: 31px;
 }
 
 .card-title-logo, .card-title-color{
     color:#FFFFFF;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Philosopher', sans-serif;
     font-size: 28px;
 }
 
 .card-base{
-    Font-Family: 'Nunito Sans', sans-serif;  
+    Font-Family: 'Philosopher', sans-serif;  
 }
 
 .card-bottom{
