@@ -1,192 +1,300 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- no search engines -->
+  <meta
+    name="robots"
+    content="noindex,nofollow,noarchive,nocache,nositelinkssearchbox,nosnippet,indexifembedded,noimageindex,noodp"
+  />
 
-    <title>Ridwan B Portfolio Design System</title>
-    <link rel="icon" type="image/x-icon" href="../img/favicon.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta name="description" content="" />
+  <title>Ridwan B Portfolio Design System</title>
+  <link rel="icon" type="image/x-icon" href="logo/favicon.png" />
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+    crossorigin="anonymous"
+  />
+ <!--Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;700&family=Lato:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;700&family=Lato:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Philosopher" />
-    <link rel="stylesheet" href="../css/style.css">
-   
-
-    <style>
-   
-
-     
-
-     
-
-    
-
- 
-
-
-    </style>
-    
-    <!-- Custom styles for this template -->
-    <link href="../css/sidebar.css" rel="stylesheet">
-  </head>
-  <body>
-    
-
-
-<main class="d-flex flex-nowrap">
- 
-  <!-- This determines the width of the sidebar. Change if needed. -->
-  <div class="flex-shrink-0 p-3 bg-white" style="width: 180px;">
-    
-    
-    <a href="../index.html" class="d-flex align-items-center text-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
-    
-      <img src="../img/logo.png" class="PrimaryLogo" width="150" height="150" alt="">
-    </a>
-    
-    <ul class="list-unstyled ps-0">
-        <li class="mb-1">
-            <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" 
-            data-bs-toggle="collapse" data-bs-target="#foundations-collapse" aria-expanded="true">
-            Foundations
-            </button>
-            <div class="collapse show" id="foundations-collapse">
-              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded">Typography</a></li>
-                <li><a href="color.html" class="link-dark d-inline-flex text-decoration-none rounded">Color</a></li>
-                <li><a href="logo.html" class="link-dark d-inline-flex text-decoration-none rounded">Logo</a></li>
-        
-              </ul>
-            </div>
+  <!-- end -->
+  <!-- Custom styles for this template -->
+  <link rel="stylesheet" href="css/sidebar.css" />
+  <!-- my CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="body-regular">
+  <main class="d-flex flex-nowrap">
+    <!-- This determines the width of the sidebar. -->
+    <div
+      class="flex-shrink-0 p-3 px-5 bg-white vh-100 border-end"
+      style="width: 280px"
+    >
+      <a
+        href="index.html"
+        class="d-flex align-items-center text-center p-3 my-3 link-dark text-decoration-none"
+      >
+        <img
+          src="logo/logo.png"
+          class="ms-1 mx-auto d-block"
+          alt="logo"
+        />
+      </a>
+        <!-- nav new -->
+        <ul class="nav nav-pills flex-column p-1 mb-2">
+          <li class="nav-item nav-title">
+            <p class="body-bold text-uppercase text-black-50 ps-3 mb-1">
+              Foundation
+            </p>
           </li>
-      <li class="mb-1">
-        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" 
-        data-bs-toggle="collapse" data-bs-target="#components-collapse" aria-expanded="false">
-         Components
-        </button>
-        <div class="collapse" id="components-collapse">
-          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-            <li><a href="../components/component1.html" class="link-dark d-inline-flex text-decoration-none rounded">Nav Bar</a></li>
-            <li><a href="../components/component2.html" class="link-dark d-inline-flex text-decoration-none rounded">Footer</a></li>
-            <li><a href="../components/component3.html" class="link-dark d-inline-flex text-decoration-none rounded">Card</a></li>
-          </ul>
-        </div>
-      </li>
-      <li class="mb-1">
-        <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed" 
-        data-bs-toggle="collapse" data-bs-target="#patterns-collapse" aria-expanded="false">
-          Page Patterns
-        </button>
-        <div class="collapse" id="patterns-collapse">
-          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-            <li><a href="../patterns/page1.html" class="link-dark d-inline-flex text-decoration-none rounded">Homepage</a></li>
-            <li><a href="../patterns/page2.html" class="link-dark d-inline-flex text-decoration-none rounded">Case Study</a></li>
-          </ul>
-        </div>
-      </li>
-   
-    </ul>
-  </div>
-  <div class="b-example-divider b-example-vr"></div>
-
-   <!-- Page Content  -->
-      <div class = "container-fluid-fluid overflow-auto">
-          <div class = "row p-5">
-            <div id="content">
-              <div class="row row-title-banner" style="background-image: url(../img/bg-image3.png); width: 100%; background-repeat: no-repeat; background-size: cover;">
-              <h2 class="background-white pt-3">Typography</h2>
-              <p class="NunitoSansBodyLarge-bg-white">Ubuntu and Nunito Sans are my portfolio’s typefaces.</p>
-            </div><!-- Row  -->
+          <li class="nav-item">
+            <a class="nav-link" href="foundation/color.html">Color</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="foundation/type.html">Typography</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="foundation/logo.html">Logo</a>
+          </li>
+        </ul>
+        <!-- nav new -->
+        <ul class="nav nav-pills flex-column p-1 mb-2">
+          <li class="nav-item nav-title">
+            <p class="body-bold text-uppercase text-black-50 ps-3 mb-1">
+              Components
+            </p>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="components/component1.html">Buttons</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="components/component2.html">Card</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="components/component3.html">Navbar</a>
+          </li>
+        </ul>
+        <!-- nav new -->
+        <ul class="nav nav-pills flex-column p-1 mb-2">
+          <li class="nav-item nav-title">
+            <p class="body-bold text-uppercase text-black-50 ps-3 mb-1">
+              Page Patterns
+            </p>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="patterns/page1.html">Homepage</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="patterns/page2.html"
+              >About Page</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="patterns/page3.html"
+              >Case Study Page</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled body-small mt-3 mb-0">© 2024</a>
+          </li>
+        </ul>
+      </div>
+      <!-- sidebar end -->
+    <!-- Page Content  -->
+      <div class="container-fluid overflow-auto text-start color-body">
+        <div class="row p-5">
+          <div class="col-lg-9 col-md-12 col-sm-12 mb-4">
+            <p class="h3">Typography</p>
           </div>
-            <div class="row pt-4">
-              <div class="cols-1 titleInfo">
-                  <div class="col h4">Ubuntu and Nunito Sans</div>
-                  <div class="col">Module Scale - <a href="https://typescale.com">typescale.com</a></div>
-                  <div class="col">Base Size - 16px (1 rem)</div>  
-                  <div class="col">Scale - Major Third(1.250)</div>  
-                  </div>
-                  </div>
-                  <div class="row pt-4">
-                      <div class="col-lg-6">
-                      <h1>Heading 1</h1>
-                     <p class="UbuntuParagraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                     </p>   
-                      </div>
-                      <div class="col-lg-6 type1">
-                         <div class="col">Font-Family: 'Ubuntu', sans-serif;</div>
-                         <div class="col">Font-size: 61.04px / 3.815rem;</div>
-                         <div class="col">Font-weight: 700;</div>
-                         <div class="col">Font-style: Normal;</div>
-                          </div>
-                          <!-- </div> -->
-                      <!-- </div> -->
-                  </div> <!-- End Row -->
-                  <hr/>
-                  <!-- <div class="container-lg pt-4"> -->
-                  <div class="row pt-3">
-                      <div class="col-lg-6">
-                      <h2>Heading 2</h2>
-                     <p class="UbuntuParagraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                     </p>   
-                      </div>
-                          <div class="col-lg-6 pt-5 type1">
-                         <div class="col">Font-Family: 'Ubuntu', sans-serif;</div>
-                         <div class="col">Font-size: 48.83px / 3.052rem;</div>
-                         <div class="col">Font-weight: 400;</div>
-                         <div class="col">Font-style: Normal;</div>
-                          </div>
-                          </div>
-                  <!-- </div> End Row -->
-                  <hr/>
-                  <!-- <div class="container-lg pt-4"> -->
-                      <div class="row pt-3">
-                          <div class="col-lg-6">
-                          <h3>Heading 3</h3>
-                         <p class="UbuntuParagraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                         </p>   
-                          </div>
-                              <div class="col-lg-6 pt-5 type1">
-                             <div class="col">Font-Family: 'Ubuntu', sans-serif;</div>
-                             <div class="col">Font-size: 50.52px / 3.157rem;</div>
-                             <div class="col">Font-weight: 400;</div>
-                             <div class="col">Font-style: Normal;</div>
-                              </div>
-                              </div>
-                              <!-- </div> -->
-                   <!--    </div> End Row -->
-                  <hr/>
-                  <!-- <div class="container-lg pt-4"> -->
-                      <div class="row pt-3">
-                          <div class="col-lg-6">
-                          <h4>Heading 4</h4>
-                         <p class="UbuntuParagraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                          Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                         </p>   
-                          </div>
-                              <div class="col-lg-6 pt-5 type1">
-                             <div class="col">Font-Family: 'Ubuntu', sans-serif;</div>
-                             <div class="col">Font-size: 31.25px / 1.953rem;</div>
-                             <div class="col">Font-weight: 400;</div>
-                             <div class="col">Font-style: Normal;</div>
-                              </div>
-                      </div> <!-- End Row -->
-                  <!-- </div> -->
-                  <hr/>
-                             
-  
+          <!-- hero -->
+          <div class="row border-bottom">
+            <div class="col-lg-9 col-md-12 col-sm-12 mb-3">
+              <p class="body-lead text-uppercase text-body-secondary">
+                Typeface
+              </p>
+              <p class="text-capitalize h4">Philosopher</p>
+              <p class="body-regular fs-3">
+                ABCDEFGHIJKLMNOPQRSTUVWXYZ<br />
+                abcdefghijklmnopqrstuvwxyz<br />
+                0123456789 !@#$%^&*()
+              </p>
+              <p class="font-monospace text-body-secondary">
+                Scale: 1.250 - Major Third
+                <br />
+                Base Size: 16px (100% = 1em)
+                <br />
+                Generated with:
+                <a
+                  href="https://typescale.com/"
+                  class="link-primary"
+                  target="_blank"
+                  >typescale.com</a
+                >
+              </p>
+            </div>
+          </div>
+          <!-- hero end -->
+          <!-- h1 -->
+          <div class="row row-gap-1 border-bottom py-3 justify-content-between">
+            <p class="col-lg-7 col-md-12 col-sm-12 mt-3 h1">h1.Heading</p>
+            <p
+              class="col-lg-4 col-md-12 col-sm-12 mt-3 font-monospace text-body-secondary"
+            >
+              font-family: "Philosopher", serif;<br />
+              font-size: 61px/3.812rem;<br />
+              font-weight: 700;<br />
+              line-height: 120%;
+            </p>
+          </div>
+          <!-- end h1 -->
+          <!-- h2 -->
+          <div class="row row-gap-1 border-bottom py-3 justify-content-between">
+            <p class="col-lg-7 col-md-12 col-sm-12 mt-3 h2">h2.Heading</p>
+            <p
+              class="col-lg-4 col-md-12 col-sm-12 mt-3 font-monospace text-body-secondary"
+            >
+              font-family: "Philosopher", serif;<br />
+              font-size: 49px/3.062rem;<br />
+              font-weight: 700;<br />
+              line-height: 120%;
+            </p>
+          </div>
+          <!-- end h2 -->
+          <!-- h3 -->
+          <div class="row row-gap-1 border-bottom py-3 justify-content-between">
+            <p class="col-lg-7 col-md-12 col-sm-12 mt-3 h3">h3.Heading</p>
+            <p
+              class="col-lg-4 col-md-12 col-sm-12 mt-3 font-monospace text-body-secondary"
+            >
+              font-family: "Philosopher", serif;<br />
+              font-size: 39px/2.438rem;<br />
+              font-weight: 700;<br />
+              line-height: 120%;
+            </p>
+          </div>
+          <!-- end h3 -->
+          <!-- h4 -->
+          <div class="row row-gap-1 border-bottom py-3 justify-content-between">
+            <p class="col-lg-7 col-md-12 col-sm-12 mt-3 h4">Heading</p>
+            <p
+              class="col-lg-4 col-md-12 col-sm-12 mt-3 font-monospace text-body-secondary"
+            >
+              font-family: "Philosopher", serif;<br />
+              font-size: 31px/1.938rem;<br />
+              font-weight: 700;<br />
+              line-height: 120%;
+            </p>
+          </div>
+          <!-- end h4 -->
+          <!-- h5 -->
+          <div class="row row-gap-1 border-bottom py-3 justify-content-between">
+            <p class="col-lg-7 col-md-12 col-sm-12 mt-3 h5">h5.Heading</p>
+            <p
+              class="col-lg-4 col-md-12 col-sm-12 mt-3 font-monospace text-body-secondary"
+            >
+              font-family: "Philosopher", serif;<br />
+              font-size: 25px/1.562rem;<br />
+              font-weight: 700;<br />
+              line-height: 120%;
+            </p>
+          </div>
+          <!-- end h5 -->
+          <!-- body lead -->
+          <div class="row row-gap-1 border-bottom py-3 justify-content-between">
+            <p class="col-lg-7 col-md-12 col-sm-12 mt-3 body-lead">
+              This is a lead paragraph.
+            </p>
+            <p
+              class="col-lg-4 col-md-12 col-sm-12 mt-3 font-monospace text-body-secondary"
+            >
+              font-family: "Philosopher", serif;<br />
+              font-size: 20px/1.25rem;<br />
+              font-weight: 300;<br />
+              line-height: 150%;
+            </p>
+          </div>
+          <!-- end body lead -->
+          <!-- body regular -->
+          <div class="row row-gap-1 border-bottom py-3 justify-content-between">
+            <p class="col-lg-7 col-md-12 col-sm-12 mt-3 body-regular">
+              This is a regular paragraph.
+            </p>
+            <p
+              class="col-lg-4 col-md-12 col-sm-12 mt-3 font-monospace text-body-secondary"
+            >
+              font-family: "Philosopher", serif;<br />
+              font-size: 16px/1.0rem;<br />
+              font-weight: 400;<br />
+              line-height: 150%;
+            </p>
+          </div>
+          <!-- end body regular -->
+          <!-- body bold -->
+          <div class="row row-gap-1 border-bottom py-3 justify-content-between">
+            <p class="col-lg-7 col-md-12 col-sm-12 mt-3 body-bold">
+              This is a bold text.
+            </p>
+            <p
+              class="col-lg-4 col-md-12 col-sm-12 mt-3 font-monospace text-body-secondary"
+            >
+              font-family: "Philosopher", serif;<br />
+              font-size: 16px/1.0rem;<br />
+              font-weight: 600;<br />
+              line-height: 150%;
+            </p>
+          </div>
+          <!-- end body bold -->
+          <!-- body underlined -->
+          <div class="row row-gap-1 border-bottom py-3 justify-content-between">
+            <p class="col-lg-7 col-md-12 col-sm-12 mt-3 body-underlined">
+              This is underlined.
+            </p>
+            <p
+              class="col-lg-4 col-md-12 col-sm-12 mt-3 font-monospace text-body-secondary"
+            >
+              font-family: "Philosopher", serif;<br />
+              font-size: 16px/1.0rem;<br />
+              font-weight: 400;<br />
+              line-height: 150%;<br />
+              text-decoration: underline;
+            </p>
+          </div>
+          <!-- end body underlined -->
+          <!-- body small -->
+          <div class="row row-gap-1 border-bottom py-3 justify-content-between">
+            <p class="col-lg-7 col-md-12 col-sm-12 mt-3 body-small">
+              This.
+            </p>
+            <p
+              class="col-lg-4 col-md-12 col-sm-12 mt-3 font-monospace text-body-secondary"
+            >
+              font-family: "Philosopher", serif;<br />
+              font-size: 13px/0.812rem;<br />
+              font-weight: 400;<br />
+              line-height: 150%;
+            </p>
+          </div>
+          <!-- end body small -->
+        </div>
+        <!-- Row end -->
+      </div>
+      <!-- Content end -->
+    </main>
 
-</main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
 
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-
-<script src="../js/sidebars.js"></script>
+    <script src="js/sidebars.js"></script>
   </body>
 </html>
