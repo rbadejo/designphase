@@ -20,12 +20,12 @@ main {
 .btn-toggle {
   padding: .25rem .5rem;
   font-weight: 600;
-  color: rgba(0, 0, 0, .69);
+  color: #6CAFC4; /* Changed font color to #6CAFC4 */
   background-color: transparent;
 }
 .btn-toggle:hover,
 .btn-toggle:focus {
-  color: rgba(0, 0, 0, .85);
+  color: #6CAFC4; /* Changed font color to #6CAFC4 */
   background-color: #b6d8ce;
 }
 
@@ -38,7 +38,7 @@ main {
 }
 
 .btn-toggle[aria-expanded="true"] {
-  color: rgba(0, 0, 0, .85);
+  color: #6CAFC4; /* Changed font color to #6CAFC4 */
 }
 .btn-toggle[aria-expanded="true"]::before {
   transform: rotate(90deg);
