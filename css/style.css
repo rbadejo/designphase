@@ -89,10 +89,10 @@
 
 /* color */
 .color-primary {
-  color: #096dd9;
+  color: #6CAFC4;
 }
 .color-primary-dark {
-  color: #0050b3;
+  color: #27A3D8;
 }
 .color-white {
   color: #ffffff;
@@ -112,10 +112,10 @@
 
 /* color cards */
 .card-color-primary {
-  background-color: #096dd9;
+  background-color: #6CAFC4;
 }
 .card-color-primary-dark {
-  background-color: #0050b3;
+  background-color: #27A3D8;
 }
 .card-color-white {
   background-color: #ffffff;
@@ -133,7 +133,7 @@
 /* button */
 .btn-style-filled {
   color: #ffffff;
-  background-color: #096dd9;
+  background-color: #6CAFC4;
   border: 0;
   font-weight: 400;
   border-radius: 8px;
@@ -141,12 +141,12 @@
   padding: 8px 16px;
 }
 .btn-style-filled:hover {
-  background-color: #0050b3;
+  background-color: #27A3D8;
 }
 .btn-style-outlined {
   color: #096dd9;
   background-color: #ffffff;
-  border: 2px solid #096dd9;
+  border: 2px solid #6CAFC4;
   font-weight: 400;
   border-radius: 8px;
   font-size: 16px;
@@ -154,7 +154,7 @@
 }
 .btn-style-outlined:hover {
   color: #ffffff;
-  background-color: #096dd9;
+  background-color: #6CAFC4;
 }
 
 /* card */
